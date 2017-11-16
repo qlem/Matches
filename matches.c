@@ -65,15 +65,15 @@ int	**delete_match(int **tab, t_list *list)
 int	allum_one_loop(int **tab, t_list *list)
 {
   char	*ent;
-    
-  printf("Line: ");
+
+    write(1, "Line: ", 6);
   ent = get_next_line(0);
   if (check_pl_error(tab, ent, list) == 1)
     {
       free(ent);
       return (allum_one_loop(tab, list));
     }
-  printf("Matches: ");
+    write(1, "Matches: ", 9);
   ent = get_next_line(0);
   if (check_pm_error(tab, ent, list) == 1)
     {

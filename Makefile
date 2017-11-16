@@ -5,7 +5,7 @@
 ## Login   <dommer_c@epitech.net>
 ## 
 ## Started on  Wed Feb 17 16:08:35 2016 dommer_c
-## Last update Thu Nov 16 22:03:22 2017 qlem
+## Last update Thu Nov 16 22:35:00 2017 qlem
 ##
 
 CC=	gcc
@@ -14,7 +14,7 @@ RM=	rm -f
 
 NAME=	matches
 
-CFLAGS=	-Wextra -Wall -Werror -W -ansi -pedantic
+CFLAGS=	-Wextra -Wall -Werror -W ## -ansi -pedantic
 
 SRC=	matches.c	\
 	create_tab.c	\
